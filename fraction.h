@@ -3,12 +3,13 @@
 
 class fraction{
 private:
-    //int32_t _num;
-    //uint32_t _denom;
-public:
-    int32_t _num;
+void reduce();
+int32_t _num;
     uint32_t _denom;
+public:
+
     fraction(double realFract);
+    
 
 
 
